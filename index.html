@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Medical Image Annotation Tool</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>Medical Image Annotation Tool</h1>
+    <p id="test"></p>
+
+    Select one or more files to upload: <input id="file" type="file" name="files[]" multiple="multiple" size="60" />
+    
+    <p id="filenames"></p>
+    
+    <div id="image-list"></div>
+    <canvas id="canvas"></canvas>
+    <button id="single-click">Single Click</button>
+    <button id="two-clicks">Two Clicks</button>
+    <input type="range" id="slider" min="1" max="100" value="8">
+    <button id="save">Save</button>
+    <div id="modal">
+      <div id="modal-content">
+        <p>The tool is for desktop devices only.</p>
+        <button id="ok">OK</button>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
