@@ -1,0 +1,64 @@
+/* CSS for canvas */
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+  /* CSS for buttons and slider */
+  button, input[type="range"] {
+    display: block;
+    margin: 10px auto;
+  }
+  /* CSS for modal dialog box */
+  #modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  #modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  }
+   /* CSS for canvas */
+   canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+  /* CSS for buttons and slider */
+  button, input[type="range"] {
+    display: block;
+    margin: 10px auto;
+  }
+  /* CSS for modal dialog box */
+  #modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  #modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  }
